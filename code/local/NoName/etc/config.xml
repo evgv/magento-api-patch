@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <NoName_ApiPatch>
+            <version>1.0.0</version>
+        </NoName_ApiPatch>
+    </modules>
+    <global>
+        <models>
+            <checkout>
+                <rewrite>
+                    <api_resource_customer>NoName_ApiPatch_Model_Api_Resource_Customer</api_resource_customer>
+                </rewrite>
+            </checkout>
+        </models>
+    </global>
+</config>
